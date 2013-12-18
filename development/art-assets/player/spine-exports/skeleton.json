@@ -58,8 +58,7 @@
 	{ "name": "wrist_right", "bone": "wrist_right", "attachment": "wrist_right" },
 	{ "name": "right_index", "bone": "wrist_right", "attachment": "clawindex1" },
 	{ "name": "right_pinky", "bone": "wrist_right", "attachment": "clawpinky1" },
-	{ "name": "right_thumb", "bone": "wrist_right", "attachment": "clawthumb1" },
-	{ "name": "__drag", "bone": "root", "additive": true }
+	{ "name": "right_thumb", "bone": "wrist_right", "attachment": "clawthumb1" }
 ],
 "skins": {
 	"default": {
