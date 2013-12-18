@@ -21,7 +21,7 @@
 	{ "name": "wrist_right", "parent": "right_forearm", "length": 49.2, "x": 63.52, "y": 0.25, "rotation": -5.61 }
 ],
 "slots": [
-	{ "name": "player_424x600 copy", "bone": "root", "attachment": "player_424x600", "additive": true },
+	{ "name": "player_424x600", "bone": "root", "attachment": "player_424x600", "additive": true },
 	{ "name": "left_bicep", "bone": "left_bicep", "attachment": "humerus2" },
 	{ "name": "left_forearm", "bone": "left_forearm", "attachment": "forearm2" },
 	{ "name": "wrist_left", "bone": "wrist_left", "attachment": "wrist_left" },
@@ -131,7 +131,7 @@
 		"pedal9": {
 			"pedal9": { "path": "petal3", "x": -7.8, "y": 92.42, "rotation": -61.7, "width": 69, "height": 67 }
 		},
-		"player_424x600 copy": {
+		"player_424x600": {
 			"player_424x600": { "path": "player_424x600 copy", "x": -13.76, "y": 275.17, "width": 424, "height": 600 }
 		},
 		"pupils": {
