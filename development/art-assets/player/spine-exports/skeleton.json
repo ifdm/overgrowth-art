@@ -36,19 +36,19 @@
 	{ "name": "thigh1", "bone": "right_thigh", "attachment": "thigh1" },
 	{ "name": "calf1", "bone": "right_shin", "attachment": "calf1" },
 	{ "name": "right_foot", "bone": "right_foot", "attachment": "right_foot" },
-	{ "name": "pedal10", "bone": "head", "attachment": "pedal10" },
-	{ "name": "pedal9", "bone": "head", "attachment": "pedal9" },
-	{ "name": "pedal8", "bone": "head", "attachment": "pedal8" },
+	{ "name": "petal10", "bone": "head", "attachment": "petal10" },
+	{ "name": "petal9", "bone": "head", "attachment": "petal9" },
+	{ "name": "petal8", "bone": "head", "attachment": "petal8" },
 	{ "name": "torso_bottom", "bone": "torso_bottom", "attachment": "torso_bottom" },
 	{ "name": "torso_top", "bone": "torso_top", "attachment": "torso_top" },
 	{ "name": "neck", "bone": "neck", "attachment": "neck" },
-	{ "name": "pedal1", "bone": "head", "attachment": "petal1" },
-	{ "name": "pedal2", "bone": "head", "attachment": "pedal2" },
-	{ "name": "pedal3", "bone": "head", "attachment": "pedal3" },
-	{ "name": "pedal4", "bone": "head", "attachment": "pedal4" },
-	{ "name": "pedal5", "bone": "head", "attachment": "pedal5" },
-	{ "name": "pedal7", "bone": "head", "attachment": "pedal7" },
-	{ "name": "pedal6", "bone": "head", "attachment": "pedal6" },
+	{ "name": "petal1", "bone": "head", "attachment": "petal1" },
+	{ "name": "petal2", "bone": "head", "attachment": "petal2" },
+	{ "name": "petal3", "bone": "head", "attachment": "petal3" },
+	{ "name": "petal4", "bone": "head", "attachment": "petal4" },
+	{ "name": "petal5", "bone": "head", "attachment": "petal5" },
+	{ "name": "petal7", "bone": "head", "attachment": "petal7" },
+	{ "name": "petal6", "bone": "head", "attachment": "petal6" },
 	{ "name": "head", "bone": "head", "attachment": "head" },
 	{ "name": "face", "bone": "head", "attachment": "__drag" },
 	{ "name": "pupils", "bone": "pupils", "attachment": "__drag" },
@@ -101,35 +101,35 @@
 		"neck": {
 			"neck": { "x": 27.06, "y": 5.04, "rotation": -69.59, "width": 50, "height": 57 }
 		},
-		"pedal1": {
+		"petal1": {
 			"petal1": { "x": 134.06, "y": 7.48, "rotation": -61.7, "width": 47, "height": 39 }
 		},
-		"pedal10": {
-			"pedal10": { "path": "petal2", "x": -3.01, "y": 54.12, "rotation": -61.7, "width": 45, "height": 64 }
+		"petal10": {
+			"petal10": { "path": "petal2", "x": -3.01, "y": 54.12, "rotation": -61.7, "width": 45, "height": 64 }
 		},
-		"pedal2": {
-			"pedal2": { "path": "petal5", "x": 146.62, "y": 30.06, "rotation": -61.7, "width": 62, "height": 84 }
+		"petal2": {
+			"petal2": { "path": "petal5", "x": 146.62, "y": 30.06, "rotation": -61.7, "width": 62, "height": 84 }
 		},
-		"pedal3": {
-			"pedal3": { "path": "petal6", "x": 153.1, "y": 67.83, "rotation": -61.7, "width": 52, "height": 109 }
+		"petal3": {
+			"petal3": { "path": "petal6", "x": 153.1, "y": 67.83, "rotation": -61.7, "width": 52, "height": 109 }
 		},
-		"pedal4": {
-			"pedal4": { "path": "petal7", "x": 125.11, "y": 111.66, "rotation": -61.7, "width": 91, "height": 119 }
+		"petal4": {
+			"petal4": { "path": "petal7", "x": 125.11, "y": 111.66, "rotation": -61.7, "width": 91, "height": 119 }
 		},
-		"pedal5": {
-			"pedal5": { "path": "petal8", "x": 102.63, "y": 133.83, "rotation": -61.7, "width": 109, "height": 103 }
+		"petal5": {
+			"petal5": { "path": "petal8", "x": 102.63, "y": 133.83, "rotation": -61.7, "width": 109, "height": 103 }
 		},
-		"pedal6": {
-			"pedal6": { "path": "petal10", "x": 69.69, "y": 158.3, "rotation": -61.7, "width": 151, "height": 75 }
+		"petal6": {
+			"petal6": { "path": "petal10", "x": 69.69, "y": 158.3, "rotation": -61.7, "width": 151, "height": 75 }
 		},
-		"pedal7": {
-			"pedal7": { "path": "petal9", "x": 23.08, "y": 142, "rotation": -61.7, "width": 155, "height": 64 }
+		"petal7": {
+			"petal7": { "path": "petal9", "x": 23.08, "y": 142, "rotation": -61.7, "width": 155, "height": 64 }
 		},
-		"pedal8": {
-			"pedal8": { "path": "petal4", "x": -2.78, "y": 121.48, "rotation": -61.7, "width": 96, "height": 60 }
+		"petal8": {
+			"petal8": { "path": "petal4", "x": -2.78, "y": 121.48, "rotation": -61.7, "width": 96, "height": 60 }
 		},
-		"pedal9": {
-			"pedal9": { "path": "petal3", "x": -7.8, "y": 92.42, "rotation": -61.7, "width": 69, "height": 67 }
+		"petal9": {
+			"petal9": { "path": "petal3", "x": -7.8, "y": 92.42, "rotation": -61.7, "width": 69, "height": 67 }
 		},
 		"player_424x600": {
 			"player_424x600": { "path": "player_424x600 copy", "x": -13.76, "y": 275.17, "width": 424, "height": 600 }
