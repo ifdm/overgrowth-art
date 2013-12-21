@@ -73,7 +73,7 @@
 			"head": { "x": 49.31, "y": 30.12, "rotation": -61.7, "width": 211, "height": 135 }
 		},
 		"hips": {
-			"hips": { "x": 1.27, "y": 7.02, "rotation": 0.16, "width": 117, "height": 86 }
+			"hips": { "x": 1.27, "y": 7.02, "rotation": 0.16, "width": 127, "height": 92 }
 		},
 		"left_bicep": {
 			"humerus2": { "x": 63.89, "y": 1.1, "rotation": 63.61, "width": 59, "height": 112 }
@@ -154,16 +154,16 @@
 			"clawthumb1": { "x": 56.54, "y": 23.57, "rotation": 107.4, "width": 27, "height": 53 }
 		},
 		"thigh1": {
-			"thigh1": { "x": 31.3, "y": -7.73, "rotation": 112.26, "width": 62, "height": 101 }
+			"thigh1": { "x": 31.3, "y": -7.73, "rotation": 112.26, "width": 62, "height": 93 }
 		},
 		"thigh2": {
-			"thigh2": { "x": 31.98, "y": 0.1, "rotation": 66.09, "width": 82, "height": 111 }
+			"thigh2": { "x": 31.98, "y": 0.1, "rotation": 66.09, "width": 66, "height": 92 }
 		},
 		"torso_bottom": {
 			"torso_bottom": { "x": 39.87, "y": -0.02, "rotation": -91.61, "width": 131, "height": 105 }
 		},
 		"torso_top": {
-			"torso_top": { "x": 32.53, "y": 2.41, "rotation": -82.76, "width": 108, "height": 125 }
+			"torso_top": { "x": 32.53, "y": 2.41, "rotation": -82.76, "width": 108, "height": 128 }
 		},
 		"wrist_left": {
 			"wrist_left": { "x": 17.61, "y": 0.4, "rotation": 57.51, "width": 76, "height": 77 }
