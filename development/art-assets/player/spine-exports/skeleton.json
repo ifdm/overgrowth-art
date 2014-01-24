@@ -271,10 +271,10 @@
 			},
 			"hip": {
 				"rotate": [
-					{ "time": 0, "angle": -24.82 }
+					{ "time": 0, "angle": -28.4 }
 				],
 				"translate": [
-					{ "time": 0, "x": 9.75, "y": 8.28 }
+					{ "time": 0, "x": 9.66, "y": 19.93 }
 				]
 			},
 			"rightThigh": {
