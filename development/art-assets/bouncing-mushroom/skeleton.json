@@ -20,6 +20,10 @@
 		}
 	}
 },
+"events": {
+	"mushroom-bounce": {},
+	"mushroom-grow": {}
+},
 "animations": {
 	"bounce": {
 		"bones": {
@@ -57,9 +61,9 @@
 					},
 					{
 						"time": 0.4,
-						"x": 0.923,
+						"x": 0.815,
 						"y": 1.044,
-						"curve": [ 0.123, 0.74, 0.75, 1 ]
+						"curve": [ 0.234, 3.3, 0.813, 0.93 ]
 					},
 					{ "time": 0.8, "x": 1, "y": 1 }
 				]
@@ -76,7 +80,10 @@
 					{ "time": 0, "name": "bounce/bm-stem" }
 				]
 			}
-		}
+		},
+		"events": [
+			{ "time": 0.4, "name": "mushroom-bounce" }
+		]
 	},
 	"grow": {
 		"bones": {
@@ -160,7 +167,10 @@
 					{ "time": 0, "name": "bounce/bm-cap" }
 				]
 			}
-		}
+		},
+		"events": [
+			{ "time": 0.4333, "name": "mushroom-grow" }
+		]
 	}
 }
 }
