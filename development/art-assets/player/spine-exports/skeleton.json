@@ -4515,6 +4515,11 @@
 	},
 	"near-edge": {
 		"slots": {
+			"rightForearm": {
+				"attachment": [
+					{ "time": 0, "name": "rightForearm" }
+				]
+			},
 			"rightIndex": {
 				"attachment": [
 					{ "time": 0, "name": "rightClawIndex" },
