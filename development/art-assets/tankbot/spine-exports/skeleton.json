@@ -34,7 +34,7 @@
 	{ "name": "pipeTopLeft", "bone": "pipes", "attachment": "pipeTopLeft" },
 	{ "name": "pipeTopRight", "bone": "pipes", "attachment": "pipeTopRight" },
 	{ "name": "portHole", "bone": "middlePanels", "attachment": "portHole" },
-	{ "name": "gearLarge2", "bone": "gearSmall", "attachment": "gearLarge" }
+	{ "name": "gearSmall", "bone": "gearSmall", "attachment": "gearLarge" }
 ],
 "skins": {
 	"default": {
@@ -62,7 +62,7 @@
 		"gearLarge": {
 			"gearLarge": { "x": -0.74, "y": 1.05, "rotation": -114.29, "width": 129, "height": 125 }
 		},
-		"gearLarge2": {
+		"gearSmall": {
 			"gearLarge": { "x": 0.33, "y": -0.96, "scaleX": 0.67, "scaleY": 0.67, "rotation": -90, "width": 129, "height": 125 }
 		},
 		"hingeLeft": {
