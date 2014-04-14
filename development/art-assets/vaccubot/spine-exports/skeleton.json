@@ -1,6 +1,6 @@
 {
 "bones": [
-	{ "name": "root", "x": 2.19, "y": 1.68 },
+	{ "name": "root", "x": 2.19, "y": 1.68, "scaleX": 0.5, "scaleY": 0.5 },
 	{ "name": "body", "parent": "root", "length": 131.45, "x": -6.79, "y": 324.87, "rotation": 88.64 },
 	{ "name": "leftWheel", "parent": "root", "length": 49.45, "x": -74.44, "y": 56.45, "rotation": -88.64 },
 	{ "name": "pipeHolders", "parent": "root", "length": 45.6, "x": 1, "y": 470.58, "rotation": 93.17 },
@@ -12,8 +12,9 @@
 	{ "name": "pipe", "parent": "pipeHolders", "length": 59.97, "x": 63.79, "y": -0.93, "rotation": 0.45 },
 	{ "name": "steamVent", "parent": "body", "length": 72.41, "x": -19.66, "y": 116.65, "rotation": 73.87 },
 	{ "name": "vacuPipeBottom", "parent": "vacuPipeTop", "length": 137.83, "x": 162.94, "y": 0.96, "rotation": -4.05 },
-	{ "name": "leaves", "parent": "pipe", "length": 35.98, "x": -246.17, "y": -345.45, "rotation": -81.49 },
-	{ "name": "vacuBottom", "parent": "vacuPipeBottom", "length": 98.43, "x": 137.83, "y": -0.7, "rotation": -4.5 }
+	{ "name": "vacuBottom", "parent": "vacuPipeBottom", "length": 98.43, "x": 137.83, "y": -0.7, "rotation": -4.5 },
+	{ "name": "vine", "parent": "pipe", "length": 35.98, "x": -75.7, "y": -356.29, "scaleX": 2, "scaleY": 2, "rotation": -81.49 },
+	{ "name": "leaves", "parent": "vine", "length": 38.99, "x": -6.38, "y": -97.88, "rotation": -57.15 }
 ],
 "slots": [
 	{ "name": "VaccuBot", "bone": "root", "color": "ffffff00" },
@@ -34,7 +35,7 @@
 	{ "name": "steamVent", "bone": "steamVent", "attachment": "steamVent" },
 	{ "name": "vacuBottom", "bone": "vacuBottom", "attachment": "vacuBottom" },
 	{ "name": "vacuJoint", "bone": "vacuPipeBottom", "attachment": "vacuJoint" },
-	{ "name": "vine", "bone": "pipe", "attachment": "vine" }
+	{ "name": "vine", "bone": "vine", "attachment": "vine" }
 ],
 "skins": {
 	"default": {
@@ -57,7 +58,7 @@
 			"gearSmall": { "x": 169.66, "y": 220, "rotation": -86.84, "width": 1000, "height": 1000 }
 		},
 		"leaves": {
-			"leaves": { "x": -335.24, "y": 80.57, "rotation": -12.13, "width": 1000, "height": 1000 }
+			"leaves": { "x": -501.1, "y": -262.44, "scaleX": 1.5, "scaleY": 1.5, "rotation": 45.01, "width": 1000, "height": 1000 }
 		},
 		"leftWheel": {
 			"wheel": { "x": -267.31, "y": 98.57, "rotation": 88.64, "width": 1000, "height": 1000 }
@@ -90,7 +91,7 @@
 			"vacuPipeTop": { "x": -137.48, "y": -43.44, "rotation": 141.84, "width": 1000, "height": 1000 }
 		},
 		"vine": {
-			"vine": { "x": -217.05, "y": -1.89, "rotation": -93.63, "width": 1000, "height": 1000 }
+			"vine": { "x": -253.86, "y": 37.23, "scaleX": 0.75, "scaleY": 0.75, "rotation": -12.13, "width": 1000, "height": 1000 }
 		}
 	}
 },
@@ -462,7 +463,7 @@
 					{ "time": 1, "x": 0, "y": 0 }
 				]
 			},
-			"leaves": {
+			"vine": {
 				"rotate": [
 					{
 						"time": 0,
@@ -926,32 +927,45 @@
 					{ "time": 1, "x": 0, "y": 0 }
 				]
 			},
+			"vine": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1666, "x": 1.4, "y": 1.4 },
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.4, "y": 1.4 },
+					{ "time": 0.6666, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": 1.4, "y": 1.4 },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
 			"leaves": {
 				"rotate": [
 					{
 						"time": 0,
 						"angle": 0,
-						"curve": [ 0.39, 0, 0.655, 1 ]
+						"curve": [ 0.25, 0, 0.75, 1 ]
 					},
 					{
 						"time": 0.2666,
-						"angle": -6,
-						"curve": [ 0.39, 0, 0.655, 1 ]
+						"angle": 7,
+						"curve": [ 0.25, 0, 0.75, 1 ]
 					},
 					{
 						"time": 0.5,
 						"angle": 0,
-						"curve": [ 0.39, 0, 0.655, 1 ]
+						"curve": [ 0.25, 0, 0.75, 1 ]
 					},
 					{
-						"time": 0.7666,
-						"angle": -6,
-						"curve": [ 0.39, 0, 0.655, 1 ]
+						"time": 0.7522,
+						"angle": 7,
+						"curve": [ 0.25, 0, 0.75, 1 ]
 					},
 					{ "time": 1, "angle": 0 }
-				],
-				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
 				]
 			}
 		}
