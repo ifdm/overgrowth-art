@@ -5,7 +5,7 @@
 	{ "name": "bone2", "parent": "bone1", "length": 165.76, "x": 101.89, "y": -2.78, "rotation": -8.5 }
 ],
 "slots": [
-	{ "name": "mushroom-stem_300x300", "bone": "bone1", "attachment": "stem-squash/stem_00" },
+	{ "name": "mushroom-stem_300x300", "bone": "bone1", "attachment": "stem-squash/stem_24" },
 	{ "name": "mushroom-cap_300x300", "bone": "bone2", "attachment": "cap" },
 	{ "name": "smallmushrooms", "bone": "root", "attachment": "smallmushrooms" }
 ],
