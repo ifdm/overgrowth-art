@@ -1,9 +1,12 @@
 {
 "bones": [
-	{ "name": "root", "x": -80.92, "y": 162.9 }
+	{ "name": "root", "x": -80.92, "y": 162.9 },
+	{ "name": "dust-cloud", "parent": "root", "length": 161.48, "x": 485.47, "y": 15.28, "rotation": -89.09 }
 ],
 "slots": [
-	{ "name": "boulder-pooper", "bone": "root", "attachment": "boulder-pooper_00" }
+	{ "name": "boulder-pooper", "bone": "root", "attachment": "boulder-pooper_00" },
+	{ "name": "boulder-pooper-crushed", "bone": "root" },
+	{ "name": "dust-cloud", "bone": "dust-cloud", "attachment": "dust-cloud/dustCloud_28" }
 ],
 "skins": {
 	"default": {
@@ -71,6 +74,39 @@
 			"boulder-pooper_60": { "width": 591, "height": 404 },
 			"boulder-pooper_61": { "width": 591, "height": 404 },
 			"boulder-pooper_62": { "width": 591, "height": 404 }
+		},
+		"boulder-pooper-crushed": {
+			"boulder-pooper-crushed": { "x": 8.49, "y": -105.36, "scaleX": -0.85, "scaleY": 0.85, "width": 600, "height": 300 }
+		},
+		"dust-cloud": {
+			"dust-cloud/dustCloud_01": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_02": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_03": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_04": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_05": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_06": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_07": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_08": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_09": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_10": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_11": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_12": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_13": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_14": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_15": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_16": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_17": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_18": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_19": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_20": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_21": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_22": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_23": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_24": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_25": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_26": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_27": { "x": -156.61, "y": -563.98, "rotation": 89.09, "width": 667, "height": 667 },
+			"dust-cloud/dustCloud_28": { "x": -148.19, "y": -34.81, "rotation": 89.09, "width": 667, "height": 667 }
 		}
 	}
 },
@@ -146,6 +182,69 @@
 			}
 		}
 	},
-	"death": {}
+	"death": {
+		"slots": {
+			"boulder-pooper": {
+				"attachment": [
+					{ "time": 0, "name": "boulder-pooper_16" },
+					{ "time": 0.1666, "name": null }
+				]
+			},
+			"boulder-pooper-crushed": {
+				"attachment": [
+					{ "time": 0.1666, "name": "boulder-pooper-crushed" }
+				]
+			},
+			"dust-cloud": {
+				"attachment": [
+					{ "time": 0, "name": "dust-cloud/dustCloud_01" },
+					{ "time": 0.0333, "name": "dust-cloud/dustCloud_02" },
+					{ "time": 0.0666, "name": "dust-cloud/dustCloud_03" },
+					{ "time": 0.1, "name": "dust-cloud/dustCloud_04" },
+					{ "time": 0.1333, "name": "dust-cloud/dustCloud_05" },
+					{ "time": 0.1666, "name": "dust-cloud/dustCloud_06" },
+					{ "time": 0.2, "name": "dust-cloud/dustCloud_07" },
+					{ "time": 0.2333, "name": "dust-cloud/dustCloud_08" },
+					{ "time": 0.2666, "name": "dust-cloud/dustCloud_09" },
+					{ "time": 0.3, "name": "dust-cloud/dustCloud_10" },
+					{ "time": 0.3333, "name": "dust-cloud/dustCloud_11" },
+					{ "time": 0.3666, "name": "dust-cloud/dustCloud_12" },
+					{ "time": 0.4, "name": "dust-cloud/dustCloud_13" },
+					{ "time": 0.4333, "name": "dust-cloud/dustCloud_14" },
+					{ "time": 0.4666, "name": "dust-cloud/dustCloud_15" },
+					{ "time": 0.5, "name": "dust-cloud/dustCloud_16" },
+					{ "time": 0.5333, "name": "dust-cloud/dustCloud_17" },
+					{ "time": 0.5666, "name": "dust-cloud/dustCloud_18" },
+					{ "time": 0.6, "name": "dust-cloud/dustCloud_19" },
+					{ "time": 0.6333, "name": "dust-cloud/dustCloud_20" },
+					{ "time": 0.6666, "name": "dust-cloud/dustCloud_21" },
+					{ "time": 0.7, "name": "dust-cloud/dustCloud_22" },
+					{ "time": 0.7333, "name": "dust-cloud/dustCloud_23" },
+					{ "time": 0.7666, "name": "dust-cloud/dustCloud_24" },
+					{ "time": 0.8, "name": "dust-cloud/dustCloud_25" },
+					{ "time": 0.8333, "name": "dust-cloud/dustCloud_26" },
+					{ "time": 0.8666, "name": "dust-cloud/dustCloud_27" },
+					{ "time": 0.9, "name": "dust-cloud/dustCloud_28" },
+					{ "time": 0.9666, "name": "dust-cloud/dustCloud_01" }
+				]
+			}
+		},
+		"bones": {
+			"dust-cloud": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 771.54, "y": -196.15, "curve": "stepped" },
+					{ "time": 0.9666, "x": 771.54, "y": -196.15 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2, "curve": "stepped" },
+					{ "time": 0.9666, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
 }
 }
