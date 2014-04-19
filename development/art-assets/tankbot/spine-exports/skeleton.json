@@ -539,13 +539,15 @@
 			"boltSmall": {
 				"attachment": [
 					{ "time": 0, "name": "boltSmall" },
-					{ "time": 0.2666, "name": null }
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.9, "name": "boltSmall" }
 				]
 			},
 			"bolts": {
 				"attachment": [
 					{ "time": 0, "name": "bolts" },
-					{ "time": 0.2666, "name": null }
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.9, "name": "bolts" }
 				]
 			},
 			"connectors": {
@@ -603,19 +605,22 @@
 			"hingeLeft": {
 				"attachment": [
 					{ "time": 0, "name": "hingeLeft" },
-					{ "time": 0.2666, "name": null }
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.9, "name": "hingeLeft" }
 				]
 			},
 			"hingeRight": {
 				"attachment": [
 					{ "time": 0, "name": "hingeRight" },
-					{ "time": 0.2666, "name": null }
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.9, "name": "hingeRight" }
 				]
 			},
 			"middlePanels": {
 				"attachment": [
 					{ "time": 0, "name": "middlePanels" },
-					{ "time": 0.2666, "name": null }
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.9, "name": "middlePanels" }
 				]
 			},
 			"panel": {
@@ -626,31 +631,36 @@
 			"panelBackground": {
 				"attachment": [
 					{ "time": 0, "name": "panelBackground" },
-					{ "time": 0.2666, "name": null }
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.9, "name": "panelBackground" }
 				]
 			},
 			"pipeBottomLeft": {
 				"attachment": [
 					{ "time": 0, "name": "pipeBottomLeft" },
-					{ "time": 0.2666, "name": null }
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.9, "name": "pipeBottomLeft" }
 				]
 			},
 			"pipeBottomRight": {
 				"attachment": [
 					{ "time": 0, "name": "pipeBottomRight" },
-					{ "time": 0.2666, "name": null }
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.9, "name": "pipeBottomRight" }
 				]
 			},
 			"pipeMiddleLeft": {
 				"attachment": [
 					{ "time": 0, "name": "pipeMiddleLeft" },
-					{ "time": 0.2666, "name": null }
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.9, "name": "pipeMiddleLeft" }
 				]
 			},
 			"pipeMiddleRight": {
 				"attachment": [
 					{ "time": 0, "name": "pipeMiddleRight" },
-					{ "time": 0.2666, "name": null }
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.9, "name": "pipeMiddleRight" }
 				]
 			},
 			"pipeRight": {
@@ -671,7 +681,8 @@
 			"portHole": {
 				"attachment": [
 					{ "time": 0, "name": "portHole" },
-					{ "time": 0.2666, "name": null }
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.9, "name": "portHole" }
 				]
 			},
 			"tankbot": {
@@ -688,38 +699,46 @@
 			"tempWater": {
 				"attachment": [
 					{ "time": 0, "name": "tempWater" },
-					{ "time": 0.2666, "name": null }
+					{ "time": 0.2666, "name": null },
+					{ "time": 1.9, "name": "tempWater" }
 				]
 			}
 		},
 		"bones": {
 			"middlePanels": {
 				"rotate": [
-					{ "time": 0, "angle": 0 }
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9, "angle": 0 }
 				],
 				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.9, "x": 0, "y": 0 }
 				]
 			},
 			"pipesBottom": {
 				"translate": [
-					{ "time": 0, "x": -3, "y": 4 }
+					{ "time": 0, "x": -3, "y": 4, "curve": "stepped" },
+					{ "time": 1.9, "x": -3, "y": 4 }
 				]
 			},
 			"pipesLeft": {
 				"rotate": [
-					{ "time": 0, "angle": 0 }
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9, "angle": 0 }
 				],
 				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.9, "x": 0, "y": 0 }
 				]
 			},
 			"water": {
 				"rotate": [
-					{ "time": 0, "angle": 0 }
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.9, "angle": 0 }
 				],
 				"translate": [
-					{ "time": 0, "x": 0, "y": 0 }
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.9, "x": 0, "y": 0 }
 				]
 			},
 			"dust-cloud": {
