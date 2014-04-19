@@ -4,12 +4,12 @@
 	{ "name": "floatplantfruit", "parent": "root" }
 ],
 "slots": [
-	{ "name": "floatplantfruit1_4000x4000", "bone": "floatplantfruit", "attachment": "floatplantfruit1_4000x4000" }
+	{ "name": "floatplantfruit1_4000x4000", "bone": "floatplantfruit", "attachment": "floatplantfruit1_600x600" }
 ],
 "skins": {
 	"default": {
 		"floatplantfruit1_4000x4000": {
-			"floatplantfruit1_4000x4000": { "x": -1216.4, "y": -144.69, "width": 4000, "height": 4000 }
+			"floatplantfruit1_600x600": { "x": -1216.4, "y": -144.69, "width": 600, "height": 600 }
 		}
 	}
 },
