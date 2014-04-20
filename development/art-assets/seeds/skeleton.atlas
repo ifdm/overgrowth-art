@@ -1,25 +1,25 @@
 
-skeleton-1.png
+skeleton.png
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 seed-icon-bm
-  rotate: false
-  xy: 2, 513
-  size: 333, 509
-  orig: 333, 509
-  offset: 0, 0
-  index: -1
-seed-icon-gv
   rotate: false
   xy: 2, 2
   size: 333, 509
   orig: 333, 509
   offset: 0, 0
   index: -1
+seed-icon-gv
+  rotate: false
+  xy: 337, 2
+  size: 333, 509
+  orig: 333, 509
+  offset: 0, 0
+  index: -1
 seed-icon-rb
   rotate: false
-  xy: 337, 513
+  xy: 672, 2
   size: 333, 509
   orig: 333, 509
   offset: 0, 0
