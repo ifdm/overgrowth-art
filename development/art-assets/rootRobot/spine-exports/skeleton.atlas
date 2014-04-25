@@ -1,0 +1,327 @@
+
+skeleton.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backGearLeft
+  rotate: true
+  xy: 653, 2
+  size: 56, 58
+  orig: 56, 58
+  offset: 0, 0
+  index: -1
+backGearRight
+  rotate: true
+  xy: 713, 2
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+bladeLeft
+  rotate: false
+  xy: 2721, 16
+  size: 165, 165
+  orig: 165, 165
+  offset: 0, 0
+  index: -1
+bladeRight
+  rotate: false
+  xy: 3802, 18
+  size: 162, 164
+  orig: 162, 164
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2799, 205
+  size: 405, 223
+  orig: 405, 223
+  offset: 0, 0
+  index: -1
+dust-cloud/dustCloud_01
+  rotate: false
+  xy: 2111, 28
+  size: 151, 102
+  orig: 667, 667
+  offset: 246, 214
+  index: -1
+dust-cloud/dustCloud_02
+  rotate: false
+  xy: 1817, 5
+  size: 182, 125
+  orig: 667, 667
+  offset: 225, 188
+  index: -1
+dust-cloud/dustCloud_03
+  rotate: false
+  xy: 2264, 4
+  size: 211, 150
+  orig: 667, 667
+  offset: 205, 163
+  index: -1
+dust-cloud/dustCloud_04
+  rotate: false
+  xy: 2477, 6
+  size: 242, 175
+  orig: 667, 667
+  offset: 190, 145
+  index: -1
+dust-cloud/dustCloud_05
+  rotate: false
+  xy: 2888, 5
+  size: 272, 198
+  orig: 667, 667
+  offset: 175, 129
+  index: -1
+dust-cloud/dustCloud_06
+  rotate: false
+  xy: 3162, 2
+  size: 303, 222
+  orig: 667, 667
+  offset: 160, 112
+  index: -1
+dust-cloud/dustCloud_07
+  rotate: false
+  xy: 3467, 5
+  size: 333, 246
+  orig: 667, 667
+  offset: 146, 96
+  index: -1
+dust-cloud/dustCloud_08
+  rotate: false
+  xy: 3628, 450
+  size: 363, 279
+  orig: 667, 667
+  offset: 131, 75
+  index: -1
+dust-cloud/dustCloud_09
+  rotate: false
+  xy: 3628, 731
+  size: 370, 286
+  orig: 667, 667
+  offset: 128, 71
+  index: -1
+dust-cloud/dustCloud_10
+  rotate: true
+  xy: 3333, 253
+  size: 378, 293
+  orig: 667, 667
+  offset: 124, 67
+  index: -1
+dust-cloud/dustCloud_11
+  rotate: true
+  xy: 3187, 633
+  size: 384, 300
+  orig: 667, 667
+  offset: 121, 63
+  index: -1
+dust-cloud/dustCloud_12
+  rotate: true
+  xy: 3024, 226
+  size: 391, 307
+  orig: 667, 667
+  offset: 118, 59
+  index: -1
+dust-cloud/dustCloud_13
+  rotate: true
+  xy: 2871, 619
+  size: 398, 314
+  orig: 667, 667
+  offset: 114, 55
+  index: -1
+dust-cloud/dustCloud_14
+  rotate: true
+  xy: 2548, 612
+  size: 405, 321
+  orig: 667, 667
+  offset: 111, 51
+  index: -1
+dust-cloud/dustCloud_15
+  rotate: true
+  xy: 2469, 183
+  size: 413, 328
+  orig: 667, 667
+  offset: 107, 47
+  index: -1
+dust-cloud/dustCloud_16
+  rotate: true
+  xy: 2211, 598
+  size: 419, 335
+  orig: 667, 667
+  offset: 104, 43
+  index: -1
+dust-cloud/dustCloud_17
+  rotate: true
+  xy: 2125, 156
+  size: 426, 342
+  orig: 667, 667
+  offset: 101, 39
+  index: -1
+dust-cloud/dustCloud_18
+  rotate: true
+  xy: 1860, 584
+  size: 433, 349
+  orig: 667, 667
+  offset: 97, 35
+  index: -1
+dust-cloud/dustCloud_19
+  rotate: true
+  xy: 1777, 132
+  size: 438, 346
+  orig: 667, 667
+  offset: 95, 38
+  index: -1
+dust-cloud/dustCloud_20
+  rotate: true
+  xy: 1505, 572
+  size: 445, 353
+  orig: 667, 667
+  offset: 91, 34
+  index: -1
+dust-cloud/dustCloud_21
+  rotate: true
+  xy: 1415, 104
+  size: 452, 360
+  orig: 667, 667
+  offset: 88, 30
+  index: -1
+dust-cloud/dustCloud_22
+  rotate: true
+  xy: 1137, 558
+  size: 459, 366
+  orig: 667, 667
+  offset: 84, 27
+  index: -1
+dust-cloud/dustCloud_23
+  rotate: true
+  xy: 1040, 81
+  size: 466, 373
+  orig: 667, 667
+  offset: 81, 23
+  index: -1
+dust-cloud/dustCloud_24
+  rotate: true
+  xy: 756, 549
+  size: 468, 379
+  orig: 667, 667
+  offset: 79, 19
+  index: -1
+dust-cloud/dustCloud_25
+  rotate: true
+  xy: 653, 60
+  size: 475, 385
+  orig: 667, 667
+  offset: 76, 16
+  index: -1
+dust-cloud/dustCloud_26
+  rotate: true
+  xy: 363, 537
+  size: 480, 391
+  orig: 667, 667
+  offset: 73, 12
+  index: -1
+dust-cloud/dustCloud_27
+  rotate: true
+  xy: 259, 39
+  size: 486, 392
+  orig: 667, 667
+  offset: 70, 9
+  index: -1
+dust-cloud/dustCloud_28
+  rotate: true
+  xy: 2, 527
+  size: 490, 359
+  orig: 667, 667
+  offset: 68, 44
+  index: -1
+exhaustLeft
+  rotate: true
+  xy: 1040, 7
+  size: 72, 134
+  orig: 72, 134
+  offset: 0, 0
+  index: -1
+exhaustMiddle
+  rotate: true
+  xy: 1176, 7
+  size: 72, 134
+  orig: 72, 134
+  offset: 0, 0
+  index: -1
+exhaustRight
+  rotate: false
+  xy: 2001, 14
+  size: 108, 116
+  orig: 108, 116
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 1757, 8
+  size: 58, 94
+  orig: 58, 94
+  offset: 0, 0
+  index: -1
+lowerArmLeft
+  rotate: true
+  xy: 3489, 638
+  size: 91, 130
+  orig: 91, 130
+  offset: 0, 0
+  index: -1
+lowerArmRight
+  rotate: false
+  xy: 1503, 2
+  size: 124, 100
+  orig: 124, 100
+  offset: 0, 0
+  index: -1
+mouthGear
+  rotate: false
+  xy: 3489, 938
+  size: 80, 79
+  orig: 80, 79
+  offset: 0, 0
+  index: -1
+root-robot-crushed
+  rotate: true
+  xy: 2, 35
+  size: 490, 255
+  orig: 600, 600
+  offset: 39, 174
+  index: -1
+tank
+  rotate: false
+  xy: 3628, 367
+  size: 361, 81
+  orig: 361, 81
+  offset: 0, 0
+  index: -1
+upperArmLeft
+  rotate: false
+  xy: 3628, 302
+  size: 143, 63
+  orig: 143, 63
+  offset: 0, 0
+  index: -1
+upperArmRight
+  rotate: false
+  xy: 1629, 7
+  size: 126, 95
+  orig: 126, 95
+  offset: 0, 0
+  index: -1
+vent
+  rotate: false
+  xy: 1312, 10
+  size: 189, 69
+  orig: 189, 69
+  offset: 0, 0
+  index: -1
+wheelGear
+  rotate: true
+  xy: 3802, 184
+  size: 181, 185
+  orig: 181, 185
+  offset: 0, 0
+  index: -1
