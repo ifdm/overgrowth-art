@@ -35,7 +35,7 @@
 	{ "name": "lowerArmRight", "bone": "lowerArmRight", "attachment": "lowerArmRight" },
 	{ "name": "upperArmRight", "bone": "upperArmRight", "attachment": "upperArmRight" },
 	{ "name": "root-robot", "bone": "root" },
-	{ "name": "root-robot-crushed-1200x1200", "bone": "root", "attachment": "root-robot-crushed-1200x1200" },
+	{ "name": "root-robot-crushed", "bone": "root", "attachment": "root-robot-crushed" },
 	{ "name": "dust-cloud", "bone": "dust-cloud" }
 ],
 "skins": {
@@ -106,8 +106,8 @@
 		"mouthGear": {
 			"mouthGear": { "x": 1.6, "y": -1.04, "rotation": 113.61, "width": 80, "height": 79 }
 		},
-		"root-robot-crushed-1200x1200": {
-			"root-robot-crushed-1200x1200": { "x": 47.74, "y": 202.03, "scaleX": 1.186, "scaleY": 1.186, "width": 600, "height": 600 }
+		"root-robot-crushed": {
+			"root-robot-crushed": { "x": 47.74, "y": 202.03, "scaleX": 1.186, "scaleY": 1.186, "width": 600, "height": 600 }
 		},
 		"tank": {
 			"tank": { "x": 18.4, "y": 3.3, "rotation": -179.09, "width": 361, "height": 81 }
@@ -418,10 +418,10 @@
 					{ "time": 0.3, "name": null }
 				]
 			},
-			"root-robot-crushed-1200x1200": {
+			"root-robot-crushed": {
 				"attachment": [
 					{ "time": 0, "name": null },
-					{ "time": 0.3, "name": "root-robot-crushed-1200x1200" }
+					{ "time": 0.3, "name": "root-robot-crushed" }
 				]
 			},
 			"tank": {
