@@ -52,7 +52,7 @@
 	{ "name": "rightIndex", "bone": "rightWrist", "attachment": "blank" },
 	{ "name": "rightPinky", "bone": "rightWrist", "attachment": "blank" },
 	{ "name": "rightThumb", "bone": "rightWrist" },
-	{ "name": "turn-around", "bone": "root", "attachment": "turn/turn_07" }
+	{ "name": "turn-around", "bone": "root" }
 ],
 "skins": {
 	"default": {
@@ -166,6 +166,13 @@
 },
 "animations": {
 	"back-hit": {
+		"slots": {
+			"turn-around": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
 		"bones": {
 			"rightWrist": {
 				"rotate": [
@@ -688,6 +695,13 @@
 		}
 	},
 	"badger": {
+		"slots": {
+			"turn-around": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
 		"bones": {
 			"leftThigh": {
 				"rotate": [
