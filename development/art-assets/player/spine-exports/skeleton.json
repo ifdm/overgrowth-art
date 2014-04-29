@@ -48,10 +48,10 @@
 	{ "name": "rightHumerus", "bone": "rightArm", "attachment": "rightHumerus" },
 	{ "name": "rightSleeve", "bone": "rightSleeve", "attachment": "rightSleeve" },
 	{ "name": "rightForearm", "bone": "rightForearm", "attachment": "rightForearm" },
-	{ "name": "rightWrist", "bone": "rightWrist", "attachment": "grab-right" },
-	{ "name": "rightIndex", "bone": "rightWrist", "attachment": "blank" },
-	{ "name": "rightPinky", "bone": "rightWrist", "attachment": "blank" },
-	{ "name": "rightThumb", "bone": "rightWrist" },
+	{ "name": "rightWrist", "bone": "rightWrist", "attachment": "rightWrist" },
+	{ "name": "rightIndex", "bone": "rightWrist", "attachment": "rightIndex" },
+	{ "name": "rightPinky", "bone": "rightWrist", "attachment": "rightPinky" },
+	{ "name": "rightThumb", "bone": "rightWrist", "attachment": "rightThumb" },
 	{ "name": "turn-around", "bone": "root" }
 ],
 "skins": {
