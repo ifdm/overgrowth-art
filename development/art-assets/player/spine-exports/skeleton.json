@@ -1268,6 +1268,11 @@
 				"attachment": [
 					{ "time": 0, "name": null }
 				]
+			},
+			"rightWrist": {
+				"attachment": [
+					{ "time": 0, "name": "grab-right" }
+				]
 			}
 		},
 		"bones": {
